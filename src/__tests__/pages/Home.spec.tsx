@@ -1,5 +1,5 @@
 import AxiosMock from 'axios-mock-adapter';
-import { waitFor, render, fireEvent } from '@testing-library/react';
+import { waitFor, render, fireEvent, act } from '@testing-library/react';
 
 import { api } from '../../services/api';
 import Home from '../../pages/Home';
